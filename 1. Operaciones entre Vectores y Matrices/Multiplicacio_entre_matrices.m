@@ -13,8 +13,8 @@ for i = 1:fil
 end
 
 disp("Ingrese los elementos de la segunda matriz:");
-for i = 1:filas
-    for j = 1:columnas
+for i = 1:fil
+    for j = 1:col
         prompt = sprintf("Ingrese el elemento (%d, %d) de la segunda matriz: ", i, j);
         matriz2(i, j) = input(prompt);
     end
