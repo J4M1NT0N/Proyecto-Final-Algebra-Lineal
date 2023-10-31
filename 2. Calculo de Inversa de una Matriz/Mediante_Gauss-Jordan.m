@@ -13,7 +13,7 @@ else
         end
     end
 
-    identidad = eye(filas);
+    identidad = eye(fil);
 
     for i = 1:fil
         divisor = matriz(i, i);
